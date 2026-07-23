@@ -1,23 +1,71 @@
 aid: alpha9
-name: Alpha9
-description: Alpha9 is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpha9.png
+name: Alpha-9 Oncology
+description: Alpha-9 Oncology is a clinical-stage radiopharmaceutical company developing
+  targeted radioligand therapies and imaging agents to treat solid and hematologic
+  cancers with high precision. Founded in 2019 and backed by Lightspeed Venture Partners,
+  the company engineers each molecule — binder, linker, chelator, and radioisotope —
+  through a bespoke, iterative optimization process, and is advancing a pipeline that
+  includes the A9-3202 imaging agent and the Actinium-225-based therapeutic A9-3408
+  into clinical trials. Alpha-9 is a therapeutics company with no public developer API,
+  developer portal, or SDKs; it was surfaced in the API Evangelist network as a
+  venture-portfolio lead from Lightspeed Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/alpha9/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface-biotech
+x-industry: healthcare-biotechnology
+x-enrichment-note: 'Enrichment run 2026-07-17 confirmed Alpha-9 Oncology is a clinical-stage
+  biotech (radiopharmaceuticals). No developer API, OpenAPI, SDKs, MCP, or technical
+  surface exists. Only real, published identity/link properties were captured; no API
+  artifacts were fabricated.'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Oncology
+- Radiopharmaceuticals
+- Pharmaceuticals
+- Healthcare
+- Clinical-Stage
+- Precision Medicine
 apis: []
+common:
+- type: Website
+  url: https://a9oncology.com
+- type: Support
+  url: https://www.a9oncology.com/contact/
+- type: Blog
+  url: https://www.a9oncology.com/news/
+- type: PrivacyPolicy
+  url: https://www.a9oncology.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.a9oncology.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alpha9tx
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
